@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans">
+    <div class="banner-container bg-cover bg-center bg-no-repeat bg-[url('/assets/1-home.jpg')]">
+        <nav class=" p-5 flex justify-between items-center lg:px-5 lg:py-0 mx-auto max-w-6xl">
+            <div class="left_icon w-14 h-14 cursor-pointer">
+                <img src="assets\logo-white-1-150x150.png" alt="">
+            </div>
+            <div class="right_icon"> 
+                <div id="mobile__menu" class=" md:hidden">
+                    <div class="hamburger_icon bg-[#137547] rounded-3xl h-12 w-12 flex justify-center items-center cursor-pointer">
+                        <img src="assets\hamburger.png" class="ham-img w-5 block" alt="" srcset="">
+                        <img src="assets/pngaaa.com-966788.png" class="cross-img w-5 hidden" alt="">
+                    </div>
+                    <ul class="mobile_menu hidden absolute right-0 left-0 top-24 bg-white">
+                        <li class="px-5 py-3 text-lg border-b-2 border-[#dddddd] border-solid">Home</li>
+                        <li class="px-5 py-3 text-lg border-b-2 border-[#dddddd] border-solid">About</li>
+                        <li class="px-5 py-3 text-lg border-b-2 border-[#dddddd] border-solid">Services</li>
+                        <li class="px-5 py-3 text-lg">Contact</li>
+                    </ul>
+                </div>
+                <div class="desktop__menu hidden md:block">
+                    <ul class="flex justify-center text-white items-center">  
+                        <li class="px-4 py-8 text-lg cursor-pointer">Home</li>
+                        <li class="px-4 py-8 text-lg cursor-pointer">About</li>
+                        <li class="px-4 py-8 text-lg cursor-pointer">Services</li>
+                        <li class="px-4 py-8 text-lg cursor-pointer">Contact</li> 
+                        <li> 
+                            <a href="tel:202-555-7890" class="hover:bg-[#0e5735] hover:border-[#0e5735] text-white mx-4 my-8 py-3 px-6 text-sm border rounded-lg"> 202-555-7890 </a>
+                            
+                        </li>                                      
+                    </ul>
+                </div>
+                
+            </div>
+        </nav>
+        <div class="banner_section pt-40 pb-28 -mt-24 px-6 lg:pt-56 lg:pb-36 mx-auto max-w-6xl">
+            <h1 class="text-white text-3xl leading-[1.3em] text-center m-auto max-w-[350px] md:text-5xl md:max-w-[700px] md:leading-[1.3em] lg:text-6xl lg:leading-[1.3em]">Once you choose hope, anything is possible...</h1>
+            <a href="#" class="flex w-fit bg-[#137547] border-[#137547] text-white mx-auto text-center mt-5 py-3 px-10 text-base border rounded-lg lg:mt-9 lg:px-12 lg:py-4 lg:text-lg">Get Started</a>
+        </div>
+    </div>
+    <div class="services_sec mx-auto max-w-6xl py-16 px-6 md:py-20 md:px-0 lg:px-0 xl:px-0 ">
+        <h6 class="text-xs text-black text-center mb-5">CERTIFIED WEB DESIGNER BASED IN OAKLAND, CALIFORNIA</h6>
+        <h2 class="text-[42px] text-black leading-[1.3em] mb-5 text-center">Problems I can help with</h2>
+        <hr class="bg-[#137547] w-16 h-1 border-t-0 text-center mx-auto max-w-16 mb-11">
+        <div class="services-main flex flex-col gap-5 md:flex-row">
+            <div class="serv_cols flex flex-col pb-10 md:pb-0 xl:p-[10px]">
+                <img src="assets/home-1.jpg" class="h-[450px] rounded-md mb-5  md:h-[350px] lg:h-[470px]" alt="">
+                <h3 class="text-[28px] px-1 leading-9 mb-2  md:text-[24px]  lg:text-[26px]">Web Design</h3>
+                <p class="text-lg leading-8 px-1 md:text-base lg:text-xl">Focus on how you can help and benefit your user. Use simple words to avoid confusion.</p>
+            </div>
+            <div class="serv_cols flex flex-col pb-10 md:pb-0 xl:p-[10px]">
+                <img src="assets/home-1.jpg" class="h-[450px] rounded-md mb-5 md:h-[350px] lg:h-[470px]" alt="">
+                <h3 class="text-[28px] px-1 leading-9 mb-2 md:text-[24px] lg:text-[26px]">Web Design</h3>
+                <p class="text-lg leading-8 px-1 md:text-base lg:text-xl">Focus on how you can help and benefit your user. Use simple words to avoid confusion.</p>
+            </div>
+            <div class="serv_cols flex flex-col pb-10 md:pb-0 xl:p-[10px]">
+                <img src="assets/home-1.jpg" class="h-[450px] rounded-md mb-5 md:h-[350px] lg:h-[470px]" alt="">
+                <h3 class="text-[28px] px-1 leading-9 mb-2 md:text-[24px] lg:text-[26px]">Web Design</h3>
+                <p class="text-lg leading-8 px-1 md:text-base lg:text-xl">Focus on how you can help and benefit your user. Use simple words to avoid confusion.</p>
+            </div>
+        </div>
+    </div>
+    <div class="testimonial__sec bg-[#8fbfa3] py-16 px-6 flex justify-center flex-col items-center md:py-20">
+        <img src="assets/testi_pic.jpg" class="rounded-full h-16 w-16 object-cover" alt="">
+        <h4 class="text-base mt-2 mb-1">Ruth A. Flora</h4>
+        <img src="assets/rating.png" class="h-3 w-[70px] object-cover mx-auto" alt="">
+        <h3 class="text-[22px] text-center mt-8 max-w-[620px] mx-auto md:text-[24px] lg:text-[26px]">You can showcase a client review here. Make it nice and short, then use this button to send them to your reviews or services page.</h3>
+        <a href="#" class="hover:bg-[#0e5735] hover:border-[#0e5735] text-black font-medium mx-4 mt-10 py-3 px-9 text-base border-2 border-black rounded-lg md:text-lg">What My Clients Say</a>
+    </div>
+    <div class="about__sec flex flex-col justify-center items-center px-6 py-16 md:py-20 xl:flex-row">
+        <div class="left_col w-full md:flex md:flex-col md:items-center xl:w-[421px]">
+            <img src="assets/home-6.jpg" class="h-[360px] rounded-md w-full md:h-[430px] md:w-3/5 md:object-center xl:h-[540px] xl:w-[401px]" alt="">
+            <div class="left_img_desktop hidden xl:block mt-9">
+                <h4 class="text-center text-[32px]">Dragos Andrei Atudorei</h4>
+                <h5 class="text-center text-[17px]">WordPress Content Creator</h5>
+                <h5 class="text-center text-[17px]">Certified Web Designer</h5>
+                <h5 class="text-center text-[17px]">Incurable Perfectionist</h5>
+            </div>
+            
+        </div>
+        <div class="right_col flex flex-col gap-5 md:max-w-[520px] md:mx-auto lg:max-w-[700px] xl:pr-[55px] xl:pl-[72px] xl:mx-0">
+            <p class="hidden xl:block">WELCOME!</p>
+            <h2 class="text-center text-[32px] pt-8 md:text-[40px] xl:text-left xl:pt-0">My name is Andrei and I am the creator of this template.</h2>
+            <p class="text-lg  xl:text-[21px] leading-[35px]">I gave it my all to make this the best design to start from. <strong>I named it Hope</strong>, in honor of my client who inspired me to make it – her middle name is Hope.</p>
+            <p class="text-lg xl:text-[21px] leading-[35px]">For the first section at the top of the page, I recommend writing something that will <strong>pique the interest</strong> of your target audience. Make them curious to read more!</p>
+            <p class="text-lg xl:text-[21px] leading-[35px]">These middle sections are the perfect place to introduce yourself, and to perhaps start introducing <strong>your services.</strong></p>
+            <p class="text-lg xl:text-[21px] leading-[35px]">The last section below is great for a call to action.</p>
+            <div class="about_btns flex flex-col justify-center items-center gap-4 md:flex-row md:justify-start md:mt-4">
+                <a href="#" class="flex w-full bg-[#137547] border-[#137547] text-white mx-auto text-center mt-5 py-3 px-10 justify-center text-base border rounded-lg md:w-52 md:mx-0 md:mt-0 md:h-14 md:items-center">See My Services</a>
+                <a href="#" class="hover:bg-[#0e5735] hover:border-[#0e5735] hover:text-white text-black font-medium w-full flex justify-center py-3 px-9 text-base border-2 border-black rounded-lg md:text-lg md:w-52 md:h-14">More About Me</a>
+
+            </div>
+        </div>
+   </div>
+   <div class="bg__sec bg-cover bg-center bg-no-repeat bg-[url('/assets/home-7.jpg')]">
+        <div class="py-16 px-6 mx-auto max-w-6xl md:max-w-[580px] md:mx-auto md:px-0 md:py-20 xl:py-36">
+            <h2 class="text-white text-[52px] leading-[1.3em] text-center m-auto max-w-[350px] pb-5 md:pb-5 md:text-[56px] md:max-w-[700px] md:leading-[1.3em] lg:text-[56px] lg:leading-[1.3em] xl:text-[58px]">Insert a call to action</h2>
+            <h3 class="text-white text-[22px] text-center pb-5 md:text-2xl md:pb-9">Think of what you want your visitor to do next. Maybe they should contact you?</h3>
+            <a href="#" class="hover:bg-[#0e5735] hover:border-[#0e5735] hover:text-white text-white font-medium w-fit mx-auto flex justify-center py-3 px-9 text-base border-2 border-white rounded-lg md:text-lg md:h-14">Get In Touch</a>
+        </div>
+   </div>
+          <footer class="bg-white py-10">
+            <div class="menu flex flex-col justify-between items-center max-w-[1200px] mx-auto lg:px-9 md:px-6 lg:flex-row">
+                <ul class=" text-black text-center md:flex flex-row justify-start items-center uppercase xl:w-[478px]">
+                    <li class="px-5 py-4 text-base  md:p-5 xl:text-lg  lg:px-[10px]">Home</li>
+                    <li class="px-5 py-4 text-base md:p-5 xl:text-lg lg:px-[10px]">About</li>
+                    <li class="px-5 py-4 text-base md:p-5 xl:text-lg lg:px-[10px]">Services</li>
+                    <li class="px-5 pt-5 pb-6 text-base md:p-5 xl:text-lg lg:px-[10px]">Contact</li>
+                </ul>
+                <div class="left_icon w-14 h-14 cursor-pointer text-center mx-auto mb-9 md:mt-4 md:mb-8 lg:w-[120px] lg:m-0 lg:flex lg:justify-center lg:items-center">
+                    <img class="w-14 h-14" src="assets/logo-black-1.png " alt="">
+                </div>
+                <p class="text-base text-black text-center md:text-lg xl:w-[470px] xl:text-right">© 2024 Hope Starter Design</p>
+            </div>
+          </footer>
+    <script src="script.js"></script>
+</body>
+</html>
